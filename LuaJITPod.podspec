@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuaJITPod'
-  s.version          = '2.1.0-01'
-  s.summary          = 'LuaJIT for CocoaPods (iOS - armv7, armv8)'
+  s.version          = '2.1.0-02'
+  s.summary          = 'LuaJIT for CocoaPods (iOS - ARMv7, ARM64)'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MoNTE48/LuaJITPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'include/*.h'
   s.vendored_libraries  = 'lib/*.a'
