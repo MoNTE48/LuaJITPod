@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuaJITPod'
-  s.version          = '2.1.2'
+  s.version          = '2.1.2-2'
   s.summary          = 'LuaJIT for CocoaPods (iOS - ARMv7, ARM64)'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,4 @@ Pod::Spec.new do |s|
   #   'LuaJITPod' => ['LuaJITPod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
