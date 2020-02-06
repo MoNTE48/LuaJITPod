@@ -1,6 +1,6 @@
 /*
 ** Definitions for ARM64 CPUs.
-** Copyright (C) 2005-2017 Mike Pall. See Copyright Notice in luajit.h
+** Copyright (C) 2005-2020 Mike Pall. See Copyright Notice in luajit.h
 */
 
 #ifndef _LJ_TARGET_ARM64_H
@@ -279,7 +279,6 @@ typedef enum A64Ins {
   A64I_STPs = 0x2d000000,
   A64I_STPd = 0x6d000000,
   A64I_FCMPd = 0x1e602000,
-  A64I_FCMPZs = 0x1e202008,
   A64I_FCMPZd = 0x1e602008,
   A64I_FCSELd = 0x1e600c00,
   A64I_FRINTMd = 0x1e654000,
