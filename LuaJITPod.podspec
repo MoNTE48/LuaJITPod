@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuaJITPod'
-  s.version          = '2.1.0-3'
+  s.version          = '2.1.0-4'
   s.summary          = 'LuaJIT for CocoaPods (iOS - ARMv7, ARM64)'
 
 # This description is used to generate tags and improve search results.
@@ -22,11 +22,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/MoNTE48/LuaJITPod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MoNTE48' => 'monte48@mail.ua' }
   s.source           = { :git => 'https://github.com/MoNTE48/LuaJITPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
