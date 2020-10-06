@@ -8,17 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LuaJITPod'
-  s.version          = '2.1.0-4'
+  s.version          = '2.1.0-5'
   s.summary          = 'LuaJIT for CocoaPods (iOS - ARMv7, ARM64)'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                      LuaJIT
+                      LuaJIT 2.1.0 for iOS
                        DESC
 
   s.homepage         = 'https://github.com/MoNTE48/LuaJITPod'
